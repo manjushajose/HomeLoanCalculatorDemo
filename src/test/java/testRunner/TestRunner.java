@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features= "src/test/java/Features",
 		glue= {"stepdefinitions"},
-		//tags = {"RegressionTest"},
+		plugin= {"html:target/cucumber-html-report","json:target/cucmber.json"},
 		dryRun=false,
 		monochrome=true
 		)

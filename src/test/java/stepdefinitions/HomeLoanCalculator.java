@@ -28,6 +28,7 @@ public void user_is_in_the_calculator_and_tools_page() {
         String title = driver.getTitle();
     Assert.assertEquals("Home loan borrowing power calculator | ANZ", title);
     System.out.println("assertion passsed");
+    System.out.println("added a print");
     
 }
 

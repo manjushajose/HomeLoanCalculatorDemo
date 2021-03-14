@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="testRunner.TestRunner" time="0.008" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="testRunner.TestRunner" time="0.013" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -65,13 +65,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: borrowing calculator is determining borrowing estimate correctly." name="Given user is in the calculator and tools page" time="0.006"/>
+  <testcase classname="Scenario: borrowing calculator is determining borrowing estimate correctly." name="Given user is in the calculator and tools page" time="0.01"/>
   <testcase classname="Scenario: borrowing calculator is determining borrowing estimate correctly." name="Then user enters the values in income,other_income,living_exp,current_hme_loan_repay, oth_loan_repay, other_commit,credit_limit fields" time="0"/>
-  <testcase classname="Scenario: borrowing calculator is determining borrowing estimate correctly." name="And user click on work out how much I could borrow button" time="0"/>
-  <testcase classname="Scenario: borrowing calculator is determining borrowing estimate correctly." name="Then borrowing estimate displayed correctly" time="0.001"/>
+  <testcase classname="Scenario: borrowing calculator is determining borrowing estimate correctly." name="And user click on work out how much I could borrow button" time="0.001"/>
+  <testcase classname="Scenario: borrowing calculator is determining borrowing estimate correctly." name="Then borrowing estimate displayed correctly" time="0"/>
   <testcase classname="Scenario: borrowing calculator is determining borrowing estimate correctly." name="Scenario: borrowing calculator is determining borrowing estimate correctly." time="0.001"/>
   <testcase classname="Scenario: Clicking the ‘start over’ button clears the form" name="Given start over button is present" time="0"/>
   <testcase classname="Scenario: Clicking the ‘start over’ button clears the form" name="When user click on start over button" time="0"/>
   <testcase classname="Scenario: Clicking the ‘start over’ button clears the form" name="Then form gets cleared" time="0"/>
-  <testcase classname="Scenario: Clicking the ‘start over’ button clears the form" name="Scenario: Clicking the ‘start over’ button clears the form" time="0"/>
+  <testcase classname="Scenario: Clicking the ‘start over’ button clears the form" name="Scenario: Clicking the ‘start over’ button clears the form" time="0.001"/>
 </testsuite>
